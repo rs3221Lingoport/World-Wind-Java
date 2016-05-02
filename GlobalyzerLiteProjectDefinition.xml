@@ -12,7 +12,7 @@
   <project-name>NASA World Wind</project-name>
 
   <report-path>globalyzer-lite-reports</report-path>
-  <report-type>ScanDetailedCSV</report-type>
+  <report-type>ScanDetailedXML</report-type>
 
   <scans>
     <scan>
