@@ -73,6 +73,8 @@ public class BasicView extends WWObjectImpl implements View
     protected static final double MINIMUM_FAR_DISTANCE = 100;
     protected static final double COLLISION_THRESHOLD = 10;
     protected static final int COLLISION_NUM_ITERATIONS = 4;
+    
+    private String stringToBeTranslated = "This should be detected by Lingoport";
 
     /** Construct a BasicView */
     public BasicView()
@@ -142,7 +144,7 @@ public class BasicView extends WWObjectImpl implements View
     {
         if (dc == null)
         {
-            String message = Logging.getMessage("nullValue.DrawContextIsNull");
+            String message = "Hardcoded string here";//Logging.getMessage("nullValue.DrawContextIsNull");
             Logging.logger().severe(message);
             throw new IllegalArgumentException(message);
         }
